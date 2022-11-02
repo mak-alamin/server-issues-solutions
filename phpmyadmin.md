@@ -2,10 +2,9 @@
 ## Maximum execution time exceeded issue
 
 ### Solution:
-### Add this line to xampp\phpmyadmin\config.inc.php 
-### (for ubuntu /usr/share/phpmyadmin/libraries/config.default.php)
+### Add this line to xampp\phpmyadmin\config.inc.php (for ubuntu /usr/share/phpmyadmin/libraries/config.default.php)
 
-### $cfg['ExecTimeLimit'] = 6000;
+$cfg['ExecTimeLimit'] = 6000;
 
 
 ### And Change xampp\php\php.ini to
