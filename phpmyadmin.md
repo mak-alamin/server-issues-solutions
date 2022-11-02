@@ -1,5 +1,5 @@
 
-## Maximum execution time exceeded issue when import sql
+## Maximum execution time exceeded issue
 
 ### Solution:
 ### Add this line to xampp\phpmyadmin\config.inc.php
